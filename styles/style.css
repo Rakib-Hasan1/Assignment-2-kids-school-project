@@ -194,6 +194,58 @@ margin-right: -150px;
     gap: 30px;
 }
 
+
+/* Our Story section styles */
+
+
+.story-section{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.story-title{
+    text-align: center;
+}
+
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+
+.right-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+}
+
+.story-box1{
+    max-width: 540px;
+    max-height: 630px;
+}
+
+.box-btn{
+    max-width: 174px;
+    max-height: 47px;
+    background-color: #3CD8E8;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 48px;
+    position: relative;
+    left: 25px;
+    top: -20px;
+}
+
+.box-image{
+    max-width: 100%;
+}
+
+
+
+
+
+
   /* shared styles */
 
   .display-flex{
