@@ -184,8 +184,15 @@ margin-right: -150px;
     color: #64C8FF;
 }
 
+/* icon styles */
 
 
+.icon{
+    margin: 50px;
+    justify-content: center;
+    background-blend-mode: orange ;
+    gap: 30px;
+}
 
   /* shared styles */
 
@@ -257,6 +264,10 @@ margin-right: -150px;
 
       .curriculum-container-box{
         grid-template-columns: repeat(1 , 1fr);
+      }
+
+      .icon{
+        display: none;
       }
 
 
