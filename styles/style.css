@@ -429,6 +429,9 @@ margin-right: -150px;
         grid-template-columns: repeat(1 , 1fr);
       }
 
+      .box-title{
+        padding: 10px;
+      }
 
       .icon{
         display: none;
